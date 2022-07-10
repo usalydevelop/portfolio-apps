@@ -1,0 +1,7 @@
+version: '3'
+services:
+  words-def:
+    build: ./words-def
+    container_name: words-def
+    ports:
+      - "3280:80"
